@@ -2,10 +2,12 @@
 
 # Project Structure
 
+```bash
 |---assets
     |___fonts
     |___logos
     |___images
     |___icons
+```
 
 `Must register into the pubscpec.yaml file`
