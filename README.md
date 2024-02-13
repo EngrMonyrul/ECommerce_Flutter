@@ -8,5 +8,36 @@
     |___logos
     |___images
     |___icons
-    `Note: Must add this folders in pubspec.yaml`
+|___lib
+    |___bindings
+    |___common
+        |___styles
+        |___widgets
+    |___data
+        |___repositories
+        |___services
+    |___features
+        |___authentications
+            |___controllers
+            |___models
+            |___screens
+        |___personalization
+            |___controllers
+            |___models
+            |___screens
+        |___shop
+            |___controllers
+            |___models
+            |___screens
+    |___localization
+    |___utils
+        |___constants
+        |___device
+        |___formatters
+        |___helpers
+        |___http
+        |___local_storage
+        |___logging
+        |___themes
+        |___validators
 ```
