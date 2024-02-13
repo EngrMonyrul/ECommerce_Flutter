@@ -2,10 +2,10 @@
 
 # Project Structure
 
-_`assets/
-    icons/
-    images/
-    logos/
-    fonts/`_
+|---assets
+    |___fonts
+    |___logos
+    |___images
+    |___icons
 
 `Must register into the pubscpec.yaml file`
