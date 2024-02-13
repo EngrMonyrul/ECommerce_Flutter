@@ -3,11 +3,10 @@
 # Project Structure
 
 ```bash
-|---assets
+|___assets
     |___fonts
     |___logos
     |___images
     |___icons
+    `Note: Must add this folders in pubspec.yaml`
 ```
-
-`Must register into the pubscpec.yaml file`
