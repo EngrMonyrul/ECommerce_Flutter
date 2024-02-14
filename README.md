@@ -1,9 +1,11 @@
 # [Tutorial] (https://www.youtube.com/playlist?list=PL5jb9EteFAOAusKTSuJ5eRl1BapQmMDT6)
 
+```bash
 `CTRL + SHIFT + - (Minimize All Codes)`
 `CTRL + SHIFT + + (Expand All Codes)`
 `CTRL + ALT + - (Minimize Current or Single Codes)`
 `CTRL + ALT + + (Expand Current or Single Codes)`
+```
 
 # Project Structure
 
