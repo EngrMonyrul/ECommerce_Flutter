@@ -43,6 +43,7 @@
 ```
 
 # Theme Structure
+
 ```bash
 |___theme/
     |___baseTheme
@@ -53,6 +54,12 @@
         |___scaffoldBackgroundColor -> white/black
         |___textTheme
         |___elevatedButtonTheme
+        |___appbarTheme
+        |___bottomSheetTheme
+        |___checkBoxTheme
+        |___chipThemeData
+        |___outlineButtonTheme
+        |___textFieldTheme
     |___textTheme
         |___headlineLMS -> fs.32/24/18 fw.bold/600/600 c.black/white
         |___titleLMS -> fs.16/16/16 fw.600/500/400 c.black/white
@@ -77,4 +84,39 @@
         |___iconTheme -> c.black s.14
         |___actionIconTheme -> c.black/white s.24
         |___titleTextStyle -> fs.18 fw.600 c.black/white
+    |___bottomSheetTheme
+        |___showDragHandle -> false
+        |___backgroundColor -> white/black
+        |___modalBackgroundColor -> white/black
+        |___constraints -> boxConstraints -> mw.infinity
+        |___shape -> borderRadius.16
+    |___checkBoxTheme
+        |___shape -> borderRadius.14
+        |___checkColor -> selected.white/grey|black
+        |___fillColor -> selected.blue|transparent
+    |___chipThemeData
+        |___disableColor -> grey0.4/grey
+        |___labelStyle -> c.black/white
+        |___selectedColor -> c.blue
+        |___padding -> h.12&v.12
+        |___checkMarkColor -> c.white
+    |___outlineButtonTheme
+        |___foregroundColor -> c.white
+        |___side -> borderSide -> c.blueAccent
+        |___textStyle -> fw.16 c.white fw.600
+        |___padding -> v.16&h.20
+        |___shape -> borderRadius.14
+    |___textFieldTheme
+        |___errorMaxLine.3
+        |___prefixIconColor.grey
+        |___suffixIconColor.grey
+        |___lableStyel -> fs.14 c.black
+        |___hintStyle -> fs.14 c.black
+        |___errorStyle -> fst.normal
+        |___floatingLabelStyle -> c.black0.8
+        |___border -> borderRadius.14 borderSide -> w.1 c.grey
+        |___enableBorder -> borderRadius.14 borderSide -> w.1 c.grey
+        |___focusBorder -> borderRadius.14 borderSide -> w.1 c.black12
+        |___errorBorder -> borderRadius.14 borderSide -> w.1 c.red
+        |___focusBorder -> borderRadius.14 borderSide -> w.2 c.orange
 ```
