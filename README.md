@@ -110,13 +110,13 @@
         |___errorMaxLine.3
         |___prefixIconColor.grey
         |___suffixIconColor.grey
-        |___lableStyel -> fs.14 c.black
-        |___hintStyle -> fs.14 c.black
+        |___lableStyel -> fs.14 c.black/white
+        |___hintStyle -> fs.14 c.black/white
         |___errorStyle -> fst.normal
         |___floatingLabelStyle -> c.black0.8
         |___border -> borderRadius.14 borderSide -> w.1 c.grey
         |___enableBorder -> borderRadius.14 borderSide -> w.1 c.grey
-        |___focusBorder -> borderRadius.14 borderSide -> w.1 c.black12
+        |___focusBorder -> borderRadius.14 borderSide -> w.1 c.black12/white
         |___errorBorder -> borderRadius.14 borderSide -> w.1 c.red
         |___focusBorder -> borderRadius.14 borderSide -> w.2 c.orange
 ```
