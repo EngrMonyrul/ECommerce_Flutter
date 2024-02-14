@@ -41,6 +41,8 @@
         |___themes
         |___validators
 ```
+
+# Theme Structure
 ```bash
 |___theme/
     |___baseTheme
