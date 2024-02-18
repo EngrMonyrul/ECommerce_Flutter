@@ -1,3 +1,4 @@
+import 'package:ecommerceprojectone/features/shop/screens/home_screens.dart';
 import 'package:ecommerceprojectone/utils/themes/apps_base_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: AppsBaseTheme.lightThemeData,
       darkTheme: AppsBaseTheme.darkThemeData,
+      home: const HomeScreen(),
     );
   }
 }

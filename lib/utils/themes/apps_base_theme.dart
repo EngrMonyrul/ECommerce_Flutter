@@ -1,3 +1,11 @@
+import 'package:ecommerceprojectone/utils/themes/appbar_theme.dart';
+import 'package:ecommerceprojectone/utils/themes/bottom_sheet_theme.dart';
+import 'package:ecommerceprojectone/utils/themes/checkbox_theme.dart';
+import 'package:ecommerceprojectone/utils/themes/chip_theme.dart';
+import 'package:ecommerceprojectone/utils/themes/elevated_button_theme.dart';
+import 'package:ecommerceprojectone/utils/themes/outline_theme.dart';
+import 'package:ecommerceprojectone/utils/themes/text_field_theme.dart';
+import 'package:ecommerceprojectone/utils/themes/text_theme.dart';
 import 'package:flutter/material.dart';
 
 class AppsBaseTheme {
@@ -10,14 +18,14 @@ class AppsBaseTheme {
     brightness: Brightness.light,
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.white,
-    textTheme: const TextTheme(),
-    elevatedButtonTheme: const ElevatedButtonThemeData(),
-    appBarTheme: const AppBarTheme(),
-    bottomSheetTheme: const BottomSheetThemeData(),
-    checkboxTheme: const CheckboxThemeData(),
-    chipTheme: const ChipThemeData(),
-    outlinedButtonTheme: const OutlinedButtonThemeData(),
-    inputDecorationTheme: const InputDecorationTheme(),
+    textTheme: AppsTextTheme.lightTextTheme,
+    elevatedButtonTheme: AppsElevatedButtonTheme.elevatedButtonTheme,
+    appBarTheme: AppsAppbarTheme.lightAppbarTheme,
+    bottomSheetTheme: AppsBottomSheetTheme.lightBottomSheetThemeData,
+    checkboxTheme: AppsCheckboxTheme.lightCheckBoxTheme,
+    chipTheme: AppsChipTheme.lightChipThemeData,
+    outlinedButtonTheme: AppsOutlineButtonTheme.outlineThemeData,
+    inputDecorationTheme: AppsTextFieldTheme.lightInputDecorationTheme,
   );
 
   /*------------------> Dark Theme <-------------------*/
@@ -27,13 +35,13 @@ class AppsBaseTheme {
     brightness: Brightness.dark,
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.black,
-    textTheme: const TextTheme(),
-    elevatedButtonTheme: const ElevatedButtonThemeData(),
-    appBarTheme: const AppBarTheme(),
-    bottomSheetTheme: const BottomSheetThemeData(),
-    checkboxTheme: const CheckboxThemeData(),
-    chipTheme: const ChipThemeData(),
-    outlinedButtonTheme: const OutlinedButtonThemeData(),
-    inputDecorationTheme: const InputDecorationTheme(),
+    textTheme: AppsTextTheme.darkTextTheme,
+    elevatedButtonTheme: AppsElevatedButtonTheme.elevatedButtonTheme,
+    appBarTheme: AppsAppbarTheme.darkAppbarTheme,
+    bottomSheetTheme: AppsBottomSheetTheme.darkBottomSheetThemeData,
+    checkboxTheme: AppsCheckboxTheme.darkCheckBoxTheme,
+    chipTheme: AppsChipTheme.darkChipThemeData,
+    outlinedButtonTheme: AppsOutlineButtonTheme.outlineThemeData,
+    inputDecorationTheme: AppsTextFieldTheme.darkInputDecorationTheme,
   );
 }

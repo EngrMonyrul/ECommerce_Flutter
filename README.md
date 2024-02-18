@@ -110,7 +110,7 @@
     |___outlineButtonTheme
         |___foregroundColor -> c.white
         |___side -> borderSide -> c.blueAccent
-        |___textStyle -> fw.16 c.white fw.600
+        |___textStyle -> fs.16 c.white fw.600
         |___padding -> v.16&h.20
         |___shape -> borderRadius.14
     |___textFieldTheme
@@ -125,5 +125,5 @@
         |___enableBorder -> borderRadius.14 borderSide -> w.1 c.grey
         |___focusBorder -> borderRadius.14 borderSide -> w.1 c.black12/white
         |___errorBorder -> borderRadius.14 borderSide -> w.1 c.red
-        |___focusBorder -> borderRadius.14 borderSide -> w.2 c.orange
+        |___focusErrorBorder -> borderRadius.14 borderSide -> w.2 c.orange
 ```
